@@ -5,7 +5,7 @@ pipeline {
       steps {
       sh 'echo "HELLO WORLD"'
       sh '''
-        echo "This will list current dir content"
+        echo "This is a change"
         ls -lh
         '''
       }
